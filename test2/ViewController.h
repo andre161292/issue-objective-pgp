@@ -1,0 +1,14 @@
+//
+//  ViewController.h
+//  test2
+//
+//  Created by localadmin on 05.04.22.
+//
+
+#import <Cocoa/Cocoa.h>
+
+@interface ViewController : NSViewController
+
+
+@end
+
