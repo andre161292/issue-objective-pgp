@@ -7,7 +7,9 @@ target 'test2' do
 
   # Pods for test2
 
-  pod 'ObjectivePGP', '0.12.3'
+#  pod 'ObjectivePGP', '0.12.2' # Working
+#  pod 'ObjectivePGP', '0.12.3' # First non working
+  pod 'ObjectivePGP', '0.99.2' # Latest as of 2022-04-05 (still not working)
 
   target 'test2Tests' do
     inherit! :search_paths
